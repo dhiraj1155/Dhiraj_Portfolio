@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(fonts/Sora/static/Sora-ExtraBold.ttf)format('truetype');
+}
+*{
+    font-family: 'Sora',serif;
+}
+
+.navbar {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#home-container-fluid {
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.summary-text {
+    text-align: justify;
+    color: rgb(102, 100, 100);
+}
+
+/* .home-img{
+    padding-bottom: 10%;
+} */
+.social-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.social {
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 3px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.social:hover {
+    box-shadow: 0 0 25px rgba(128, 128, 128, 0.7);
+    cursor: pointer;
+}
+
+.skills-text {
+    text-align: center;
+}
+
+.skills-container {
+    margin-top: 5.5%;
+    margin-bottom: 7.5%;
+}
+
+.skills-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    width: 700px;
+    margin-left: 22%;
+    margin-top: 4%;
+}
+
+
+
+.skill-icon {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.skill-icon:hover {
+    box-shadow: 0 0 25px rgba(128, 128, 128, 0.7);
+    cursor: pointer;
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 15%;
+}
+
+.black-hr {
+    border: 1px solid black;
+}
+
+span {
+    font-weight: 600;
+
+}
+
+.row {
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.project-img {
+    border-radius: 10px;
+}
+
+
+.project-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.right-side-info-text {
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.left-side-info-text {
+    margin-left: 90px;
+    text-align: justify;
+}
+
+.project-title-left {
+    margin-left: 90px;
+}
+
+
+
+
+
+/* .sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.Education-container {
+    height: 120px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 8%;
+}
+
+.about-me-text {
+    text-align: justify;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: rgb(102, 100, 100);
+}
+
+
+.hollow-text{
+    font-weight: 600;
+}
+
+#bold-text {
+    font-weight: bolder;
+
+}
+
+.light-text {
+    font-weight: normal;
+}
+
+
+.input {
+    width: 355px;
+}
+
+.input::placeholder {
+    padding-left: 10px;
+}
+
+.social-icons-container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 9px;
+
+}
+
+.a {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 50px;
+    padding-left: 108px;
+    line-height: 0.5;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.footer-part-text {
+    color: rgb(102, 100, 100);
+    font-size: 12px;
+    text-align: left;
+}
