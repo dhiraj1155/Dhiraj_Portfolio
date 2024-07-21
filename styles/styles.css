@@ -10,7 +10,9 @@
     margin-left: 30px;
     margin-right: 30px;
 }
-
+.home-img{
+    padding-bottom: 10px;
+}
 html {
     scroll-behavior: smooth;
 }
