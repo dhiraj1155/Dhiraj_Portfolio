@@ -2,8 +2,8 @@
     font-family: 'Sora';
     src: url(fonts/Sora/static/Sora-ExtraBold.ttf)format('truetype');
 }
-*{
-    font-family: 'Sora',serif;
+* {
+    font-family: 'Sora', serif;
 }
 
 .navbar {
@@ -13,12 +13,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-.nav-links-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .navbar-brand {
@@ -36,9 +30,6 @@ html {
     color: rgb(102, 100, 100);
 }
 
-/* .home-img{
-    padding-bottom: 10%;
-} */
 .social-icons-container {
     display: flex;
     flex-direction: row;
@@ -76,8 +67,6 @@ html {
     margin-top: 4%;
 }
 
-
-
 .skill-icon {
     height: 100px;
     width: 100px;
@@ -92,7 +81,6 @@ html {
     flex-direction: column;
     transition: box-shadow 0.3s ease-in-out;
 }
-
 
 .skill-icon:hover {
     box-shadow: 0 0 25px rgba(128, 128, 128, 0.7);
@@ -117,7 +105,6 @@ html {
 
 span {
     font-weight: 600;
-
 }
 
 .row {
@@ -126,11 +113,9 @@ span {
     padding-bottom: 30px;
 }
 
-
 .project-img {
     border-radius: 10px;
 }
-
 
 .project-img-container {
     display: flex;
@@ -159,17 +144,6 @@ span {
     margin-left: 90px;
 }
 
-
-
-
-
-/* .sora {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
 .Education-container {
     height: 120px;
     width: 400px;
@@ -180,6 +154,7 @@ span {
     background-color: black;
     color: white;
     margin-top: 8%;
+    
 }
 
 .about-me-text {
@@ -190,20 +165,17 @@ span {
     color: rgb(102, 100, 100);
 }
 
-
-.hollow-text{
+.hollow-text {
     font-weight: 600;
 }
 
 #bold-text {
     font-weight: bolder;
-
 }
 
 .light-text {
     font-weight: normal;
 }
-
 
 .input {
     width: 355px;
@@ -225,7 +197,6 @@ span {
     border-radius: 2px;
     border: 1px solid black;
     padding: 9px;
-
 }
 
 .a {
@@ -249,4 +220,183 @@ span {
     color: rgb(102, 100, 100);
     font-size: 12px;
     text-align: left;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 400px) {
+
+    #home-container-fluid {
+        margin: 5% 15px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #bold-text{
+        display: block;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .summary-text{
+        font-size: 14px;
+        word-spacing: 1px;
+    }
+    .home-img {
+        /* margin: 0 auto; */
+    }
+
+    .social-icons-container {
+        justify-content: center;
+    }
+
+    .skills-icon-container {
+        width: 250px;
+    }
+
+    .skills-container {
+  
+        width: calc(50% -5px);
+    }
+
+    .project-container {
+        padding: 10% 0;
+    }
+
+    .project-img-container {
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-img{
+        margin-left: 30px;
+    }
+
+    .right-side-info-text,
+    .left-side-info-text {
+        margin: 0 -28px;
+        text-align: justify;
+        margin-left: -3px;
+    }
+
+    .project-title-left,
+    .project-title-right {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+
+    }
+
+    .light-text{
+        margin-top: 25px;
+    }
+
+    .input {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: 8px 15px;
+        text-align: center;
+    }
+
+    .light-text {
+        text-align: center;
+    }
+
+    .about-me-text {
+        text-align: justify;
+        margin-left: 30px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    .Education-container{
+        /* height: 120px; */
+    /* width: 400px; */
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 8%;
+    margin-left: 25px;
+    width: 350px;
+    }
+    
+
+}
+
+
+
+/* Apply box-sizing to all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding from body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 400px) {
+    #home-container-fluid, 
+    .summary-text, 
+    .project-container, 
+    .skills-container, 
+    .about-me-text,  
+    .navbar, 
+    .row, 
+    .skills-icon-container {
+        width: 100%;
+        margin: 0;
+        padding: 14px
+    }
+
+    /* Adjust skills-icon-container for 3 items per row */
+    .skills-icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .skill-icon {
+        flex: 1 1 calc(33.333% - 20px); /* 3 items per row */
+        margin: 10px;
+    }
+
+    .about-me-text{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .input{
+        margin-left: 10px;
+    }
+
+    #btn{
+        font-size: 11px;
+    }
+    .footer-part-text{
+        margin-left: 25px;
+    }
+
+
+
+    
 }
