@@ -250,6 +250,8 @@ span {
     }
     .home-img {
         /* margin: 0 auto; */
+        width: 250px;
+        height: 250px;
     }
 
     .social-icons-container {
@@ -396,7 +398,11 @@ html, body {
         margin-left: 25px;
     }
 
-
+    .home-img {
+        /* margin: 0 auto; */
+        width: 250px;
+        height: 250px;
+    }
 
     
 }
