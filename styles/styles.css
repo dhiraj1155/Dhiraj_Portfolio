@@ -210,7 +210,7 @@ span {
     color: white;
     text-align: left;
     height: 50px;
-    padding-left: 108px;
+    padding-left: 100px;
     line-height: 0.5;
     padding-top: 8px;
     font-size: 14px;
@@ -252,6 +252,7 @@ span {
         /* margin: 0 auto; */
         width: 250px;
         height: 250px;
+        margin-top: 28px;
     }
 
     .social-icons-container {
@@ -400,8 +401,10 @@ html, body {
 
     .home-img {
         /* margin: 0 auto; */
+        
         width: 250px;
         height: 250px;
+        margin-top: 28px;
     }
 
     
