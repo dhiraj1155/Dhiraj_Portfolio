@@ -1,9 +1,10 @@
 @font-face {
-    font-family: 'Sora';
-    src: url(fonts/Sora/static/Sora-ExtraBold.ttf)format('truetype');
+    /* font-family: 'Sora';
+    src: url(fonts/Sora/static/Sora-ExtraBold.ttf)format('truetype'); */
 }
 * {
     font-family: 'Sora', serif;
+    /* font-family: 'Sora',serif; */
 }
 
 .navbar {
