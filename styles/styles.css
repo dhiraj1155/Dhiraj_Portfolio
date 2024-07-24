@@ -288,7 +288,7 @@ span {
         gap: 50px;
         justify-content: center;
         width: 700px;
-        margin-left: 22%;
+        margin-left: 27%;
         margin-top: 4%;
     }
     
@@ -361,12 +361,12 @@ span {
     }
     
     .left-side-info-text {
-        margin-left: 90px;
+        margin-left: 150px;
         text-align: justify;
     }
     
     .project-title-left {
-        margin-left: 90px;
+        margin-left: 150px;
     }
     
     .Education-container {
