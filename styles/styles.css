@@ -415,5 +415,11 @@ html, body {
         margin-top: 30px;
     }
 
+    .a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    }
     
 }
