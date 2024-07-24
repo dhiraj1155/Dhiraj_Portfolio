@@ -225,6 +225,8 @@ span {
     text-align: left;
 }
 
+
+
 /* Responsive Styles */
 @media only screen and (max-width: 400px) {
 
@@ -341,6 +343,14 @@ span {
     width: 350px;
     }
     
+    .mail-text{
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .ph-no-text{
+        font-weight: 300;
+        font-size: 14px;
+    }
 
 }
 
@@ -422,4 +432,12 @@ html, body {
     margin-top: 10px;
     }
     
+    .mail-text{
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .ph-no-text{
+        font-weight: 300;
+        font-size: 14px;
+    }
 }
